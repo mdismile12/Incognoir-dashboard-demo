@@ -25,15 +25,15 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <span className="text-color-1">📧</span>
-                  <span className="body-2">sales@Incognoir.com</span>
+                  <span className="body-2">incognoirinfo@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="text-color-1">📞</span>
-                  <span className="body-2">+1 (555) 123-4567</span>
+                  <span className="body-2">+91 816 894 5281</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="text-color-1">📍</span>
-                  <span className="body-2">123 Security St, San Francisco, CA 94105</span>
+                  <span className="body-2">India</span>
                 </div>
               </div>
             </div>
