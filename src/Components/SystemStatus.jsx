@@ -1,15 +1,22 @@
 const SystemStatus = ({ status, immunityScore }) => {
+  // const getStatusColor = () => {
+  //   if (immunityScore >= 90) return 'text-green-400';
+  //   if (immunityScore >= 75) return 'text-yellow-400';
+  //   return 'text-red-400';
+  // };
   const getStatusColor = () => {
-    if (immunityScore >= 90) return 'text-green-400';
-    if (immunityScore >= 75) return 'text-yellow-400';
-    return 'text-red-400';
+    if (status === "active") return "text-green-500";
+    if (status === "warning") return "text-yellow-500";
+    if (status === "critical") return "text-red-500";
+    return "bg-gray-500";
   };
 
-  const getStatusText = () => {
-    if (immunityScore >= 90) return 'Optimal';
-    if (immunityScore >= 75) return 'Stable';
-    return 'Attention Required';
-  };
+ const getStatusText = () => {
+  if (immunityScore >= 90) return 'Optimal';
+  if (immunityScore >= 75) return 'Stable';
+  if (immunityScore >= 50) return 'Weak';
+  return (immunityScore < 50 ? 'Critical' : 'Attention Required ' );
+};
 
   return (
     <div className="mt-4 p-4 bg-gradient-to-r from-gray-800/50 to-cyan-900/20 rounded-xl border border-cyan-500/20">

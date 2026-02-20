@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const StatCard = ({ title, value, change, trend, icon, color, description, healthy, risk, max, unit, critical }) => {
+const  StatCard = ({ title, value, change, trend, icon, color, description, healthy, risk, max, unit, critical }) => {
   const [animatedValue, setAnimatedValue] = useState(0);
   const [prevValue, setPrevValue] = useState(value);
 
