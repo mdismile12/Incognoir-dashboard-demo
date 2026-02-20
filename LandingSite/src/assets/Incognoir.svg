@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="40" viewBox="0 0 230 40">
+  <defs>
+    <linearGradient id="incognoirGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#AC6AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Logo Image -->
+  <image x="0" y="0" width="40" height="40" xlink:href="incog.jpeg" />
+  <!-- Company Text -->
+  <text x="50" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#incognoirGradient)">Incognoir</text>
+</svg>
